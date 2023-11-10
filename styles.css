@@ -1,0 +1,235 @@
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 116px;
+
+}
+
+b{
+    font-size: 30px;
+}
+
+.contacts a img {
+    width: 20px;
+    height: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0;
+
+}
+
+nav .contacts :hover {
+    color: #9a9a9a;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: work sans;
+    font-weight: 500;
+    color: rgb(83, 82, 82);
+    font-size: 14px;
+    padding: 16px;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    align-items: center;
+
+}
+
+footer a:hover {
+    color: #9a9a9a;
+}
+
+.greetings {
+    width: 50%;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 26px;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.first-row .first_project {
+    flex: 1;
+
+}
+
+.first-row .second_project {
+    flex: 1;
+
+}
+
+.first-row .first_project img{
+    width: 100%;
+
+}
+
+.first-row .second_project img {
+    width: 100%;
+
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.second-row .first_project {
+    flex: 1;
+}
+
+
+.second-row .second_project {
+    flex: 1;
+}
+
+.second-row .first_project img{
+    width: 100%;
+
+}
+
+.second-row .second_project img {
+    width: 100%;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.contacts a {
+    font-size: 14px;
+    color: rgb(83, 82, 82);
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    font-weight: 600;
+}
+
+@media (max-width: 850px) {
+    .first-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts {
+        align-items: flex-start;
+    }
+
+    .contacts a {
+        padding-left: 0;
+    }
+
+    .second-row {
+            display: flex;
+            flex-direction: column;
+        }
+
+    nav {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+       
+
+    footer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+    footer a {
+            padding-left: 0;
+            padding-bottom: 8px;
+        }
+
+    footer img {
+            display: none;
+        }
+    
+    .greetings {
+        width: 95%;
+    }
+
+    }
+
+    @media (max-width: 550px) {
+        body {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        nav {
+            margin-top: 40px;
+        }
+
+
+   
+    }
+
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+
+.title .name {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: work sans;
+}
+
+.title .job {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: work sans;
+}
+
+.title img {
+    height: 20px;
+    width: 3px;
+    padding: 8px;
+}
+
+footer img {
+    height: 20px;
+    width: 3px;
+}
