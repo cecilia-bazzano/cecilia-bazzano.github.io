@@ -1,7 +1,7 @@
 
 body {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 nav {
@@ -10,7 +10,7 @@ nav {
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 40px;
-    margin-top: 116px;
+    margin-top: 100px;
 
 }
 
@@ -191,15 +191,13 @@ footer a:hover {
 
     @media (max-width: 550px) {
         body {
-            margin-left: 40px;
-            margin-right: 40px;
+            margin-left: 25px;
+            margin-right: 25px;
         }
 
         nav {
             margin-top: 40px;
         }
-
-
    
     }
 
