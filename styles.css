@@ -235,11 +235,15 @@ footer img {
 .first_project img,
 .second_project img {
     width: 100%;
-    transition: box-shadow 0.3s ease; /* Adjust the duration for a smoother transition */
+    transition: box-shadow 0.3s ease, filter 0.3s ease;
+    
+    
 }
 
 .first_project img:hover,
 .second_project img:hover {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    filter: opacity(90%);
+
 }
 
