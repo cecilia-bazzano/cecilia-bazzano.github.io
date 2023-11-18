@@ -1,5 +1,5 @@
 # portfolio
-Cecilia Bazzano porftolio.
+Cecilia Bazzano portfolio.
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
